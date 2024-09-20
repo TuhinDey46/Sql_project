@@ -55,7 +55,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
-![Top Paying Roles](assets\top_paying_roles.png)
+![Top Paying Roles](assets/top_paying_roles.png)
 
 Hers's the breakdown of the Top Data Analyst Jobs in 2023:
 
@@ -95,7 +95,7 @@ FROM top_paying_jobs
 INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ```
-![Top paying skills](assets\top_paying_roles_skills.png)
+![Top paying skills](assets/top_paying_roles_skills.png)
 
 Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:
 
